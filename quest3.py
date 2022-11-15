@@ -11,9 +11,13 @@ class QuestionThree:
     def getMin(self):
         if len(self.__pilha) == 0:
             return print('I rapaz, tá vazio aqui.')
+        # pego o primeiro numero da pilha
         menor = self.__pilha[0]
+        # percorro a lista
         for numero in self.__pilha:
+            # Verifico se os numeros da minha lista é menor que o primeiro numero da pilha
             if numero < menor:
+                # Se for digo que esse numero é o menor numero
                 menor = numero
 
         print(menor)
