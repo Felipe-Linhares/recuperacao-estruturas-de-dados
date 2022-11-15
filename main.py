@@ -24,7 +24,7 @@ def start():
     # print(quest3)
 
     quest4 = QuestionFour()
-    # quest4.decodificar("2[abc]3[cd]ef")
+    quest4.decodificar("2[abc]3[cd]ef")
 
 
 
